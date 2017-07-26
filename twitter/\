@@ -1,0 +1,6 @@
+from twitter import Twitter
+
+t = Twitter(auth=OAuth("889439018282123264-ypvLZcI7Tt0nBA3yWvul6IfqvUMMdV0", "SrH7ptZ0mIu99Cmg5LbFe2t0AFCMOglGz7peYFF539Kg", "oiAlipRHReALc5EEGfxFzBl0I", "iP18pav5D00ftGawVLsg9mORIKN9tgAcf16seby5IpbpDmVtZ2"))
+
+pythonTweets = t.search.tweets(q = "#python")
+print(pythonTweets)
